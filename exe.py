@@ -1,6 +1,9 @@
 """Unit converter"""
 
 from tkinter import *
+window = Tk()
+window.title("Unit Convertor")
+window.geometry("500x200")
 
 units = {
     "grams":0,
@@ -41,9 +44,7 @@ def clear():
     to.delete('1.0',END)
     en.delete(0,'end')
 
-window = Tk()
-window.title("Unit Convertor")
-window.geometry("500x200")
+
 
 
 
